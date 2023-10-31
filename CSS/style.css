@@ -45,3 +45,21 @@
         text-align: center;
    
 }
+
+#img2{
+    width:400px;
+    height:500px;
+}
+#animation{
+    position: relative;
+    animation: img2 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes img2 {
+    0%   {background: transparent; down: 0px; top: 0px;}
+    
+    25%  {background: transparent; up: 300px; top: 100px;}
+    
+    100% {background:transparent; down: 0px; top: 0px;}
+  }
