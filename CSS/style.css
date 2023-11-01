@@ -65,7 +65,13 @@
   }
 
   #Skills{
-    height: 50vh;  
+    height:50vh;  
+ }
+
+ 
+ #Projects{
+    height:120vh;
+
  }
 
   /* .card{
@@ -83,4 +89,14 @@
  #calcimg{
     height: 325px;
  }
-      
+#m-img{
+    height:300px;
+    width:110px;
+}
+    
+.skills{
+    /* top: 90%; */
+    position: relative;
+    right: 30%;
+    text-align: center;
+}
