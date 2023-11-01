@@ -100,3 +100,7 @@
     right: 30%;
     text-align: center;
 }
+.container-form{
+    position:relative;
+    left: 20%;
+}
