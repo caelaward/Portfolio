@@ -96,7 +96,7 @@ body{
     width:110px;
 }
     
-.skills{
+.description{
     /* top: 90%; */
     position: relative;
     right: 30%;
@@ -106,3 +106,53 @@ body{
     position:relative;
     left: 20%;
 }
+
+/* #About{
+    background-color:#CCFFE5;
+} */
+.container-body{
+    background-color:#e3eaa7;
+}
+#Contact{
+    background-color: #d5e1df;
+}
+
+ #skills {
+   
+    text-align: center;
+     margin-top: 25%;
+  } 
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+    margin-top:10%;
+  }
+
+  #home{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+   
+
+  }
+
+  #Testimonials{
+   margin-top:25%;
+    position:relative;
+  }
+
+  #Projects{
+    margin-top:20%
+
+    
+  }
