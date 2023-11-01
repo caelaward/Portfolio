@@ -2,7 +2,9 @@
     margin:0;
     padding:0;
 }
-
+body{
+    overflow-x: hidden;
+}
 
 /* body{
     background-image: url(https://i.postimg.cc/FHr3Xn2J/IMG-1118.jpg);
