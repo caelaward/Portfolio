@@ -4,6 +4,9 @@
 }
 body{
     overflow-x: hidden;
+   
+   font-family: 'Oswald', sans-serif;
+  
 }
 
 /* body{
@@ -15,18 +18,24 @@ body{
     
 } */
 
-
+/* .active:active{
+  color: white;
+} */
 
 
 #img1{
     /* border-radius:55%; */
-    width:400px;
-   
+    width: 30%;
+    box-shadow:  0 0 5px white, 0 0 10px white, 0 0 15px white;
     
 }
 .sticky-container{
-    position:relative;
+ 
     height: 100vh;
+    background: linear-gradient(112deg, #FFFFFF 50%, #999966 50%);
+    
+
+
 }
 
 
@@ -37,16 +46,20 @@ body{
         color: white;
         font-weight: bold;
         border: 3px solid #f1f1f1;
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
+        position: relative;
+        top: 15%;
+        left: 10%;
+        /* transform: translate(-50%, -50%);
+        z-index: 2; */
         width: 80%;
         padding: 20px;
         text-align: center;
    
 }
+
+/* .nav-link:active{
+  color: white;
+} */
 
 #img2{
     width:400px;
@@ -67,12 +80,12 @@ body{
   }
 
   #Skills{
-    height:50vh;  
+    /* height:50vh;   */
  }
 
  
  #Projects{
-    height:120vh;
+   
 
  }
 
@@ -114,22 +127,27 @@ body{
     background-color:#e3eaa7;
 }
 #Contact{
-    background-color: #d5e1df;
+    background-color: #999966;
+    margin-top:500px;
 }
 
  #skills {
-   
+   /* height: 100vh;
     text-align: center;
-     margin-top: 25%;
+     margin-top: 25%; */
   } 
   
   .skill-header {
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    margin-top:50px;
+    padding-top:60px;
+
   }
   
-  .skills-wrapper img {
+   .skills-wrapper img {
     padding: 1.25rem;
-  }
+    margin-top:20px ;
+  } 
   
   .icon {
     width: 11.875rem;
@@ -137,22 +155,37 @@ body{
     margin-top:10%;
   }
 
-  #home{
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-   
-
-  }
+  
 
   #Testimonials{
-   margin-top:25%;
+   margin-top:15%;
     position:relative;
+    padding-top:60px;
   }
 
   #Projects{
-    margin-top:20%
+    margin-top:20%;
+  
+  }
 
+  .footer{
+    margin-top:12%;
+    position:relative;
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+  }
+
+  .card{
+    box-shadow: 0 0 10px white, 0 0 15px grey;
+    border-radius: 50px;
+   margin-top:50px;
+  }
+
+  .project-heading{
+    font-size: 50px;
     
   }
+
+  
