@@ -218,3 +218,35 @@ body{
   #keyproject{
     padding-top:80px;
   }
+
+  #projectsection{
+    justify-content:center ;
+    padding-left: 25px;
+  }
+
+  @media all and (max-width:300px){
+    body{
+      overflow-x:hidden;
+      position: relative;
+      
+    }
+
+    #name{
+      font-size: smaller;
+      padding:10px;
+      margin-bottom:35px;
+    }
+
+    #img1{
+      width:60%;
+      
+    }
+
+    #img{
+      width:25%;
+    }
+
+
+
+
+  }
