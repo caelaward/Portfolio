@@ -110,6 +110,7 @@ body{
     position: relative;
     right: 30%;
     text-align: center;
+    padding-right: 50px;
 }
 .container-form{
     position:relative;
@@ -124,7 +125,8 @@ body{
 }
 #Contact{
     background-color: #999966;
-    margin-top:80px;
+    margin-top:200px;
+  /* padding-top: 100px; */
 }
 
  
@@ -182,4 +184,6 @@ body{
 #skills-descr{
   box-shadow: none;
 }
-  
+  .name{
+    padding-left:100px;
+  }
