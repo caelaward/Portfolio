@@ -110,6 +110,7 @@ body{
     position: relative;
     right: 30%;
     text-align: center;
+    padding-right: 50px;
 }
 .container-form{
     position:relative;
@@ -124,7 +125,8 @@ body{
 }
 #Contact{
     background-color: #999966;
-    margin-top:80px;
+    margin-top:200px;
+  /* padding-top: 100px; */
 }
 
  
@@ -150,13 +152,13 @@ body{
   
 
   #Testimonials{
-   margin-top:15%;
+   margin-top:10%;
     position:relative;
     padding-top:60px;
   }
 
   #Projects{
-    margin-top:20%;
+    margin-top:12%;
   
   }
 
@@ -182,4 +184,37 @@ body{
 #skills-descr{
   box-shadow: none;
 }
+  .name{
+    padding-left:100px;
+  }
+  #resume-card{
+    box-shadow: none;
+    border-radius: 0%;
+
+  }
   
+  #project-calcu{
+  width:20rem;
+    
+  }
+
+  #mobi-project{
+    width:20rem;
+    height:24rem;
+  }
+  #commerce-project{
+    width:20rem;
+    height:24rem;
+  }
+  #netflix-project{
+    width:20rem;
+    height:24rem;
+  }
+  #keyboard-project{
+    width:20rem;
+    height:24rem;
+  }
+
+  #keyproject{
+    padding-top:80px;
+  }
