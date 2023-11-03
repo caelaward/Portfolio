@@ -9,18 +9,7 @@ body{
   
 }
 
-/* body{
-    background-image: url(https://i.postimg.cc/FHr3Xn2J/IMG-1118.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    backdrop-filter: blur(2px)
-    
-} */
 
-/* .active:active{
-  color: white;
-} */
 
 
 #img1{
@@ -58,9 +47,7 @@ body{
    
 }
 
-/* .nav-link:active{
-  color: white;
-} */
+
 
 #img2{
     width:400px;
@@ -85,17 +72,7 @@ body{
  
  
 
-  /* .card{
-    position: relative;
-    max-width: 300px;
-    height: 215px;
-    margin: 30px 10px;
-    padding: 20px 15px;
- }
-
- .card-img-top{
-    width: 200px;
- } */
+ 
 
  #calcimg{
     height: 325px;
@@ -246,7 +223,23 @@ body{
       width:25%;
     }
 
+    .name{
+     padding-left: 1%;
+    }
 
+    .description{
+      padding-left:23%;
+    }
+
+    #Contact{
+      width:150%;
+      
+    }
+    #email{
+      font-size: smaller;
+      
+    }
+    
 
 
   }
