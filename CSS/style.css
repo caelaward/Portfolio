@@ -152,13 +152,13 @@ body{
   
 
   #Testimonials{
-   margin-top:15%;
+   margin-top:10%;
     position:relative;
     padding-top:60px;
   }
 
   #Projects{
-    margin-top:20%;
+    margin-top:15%;
   
   }
 
@@ -187,3 +187,9 @@ body{
   .name{
     padding-left:100px;
   }
+  #resume-card{
+    box-shadow: none;
+    border-radius: 0%;
+
+  }
+  
